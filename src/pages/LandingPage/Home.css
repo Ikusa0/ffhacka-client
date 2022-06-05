@@ -1,0 +1,72 @@
+.landingpage .body {
+  width: 100%;
+  background-image: url("bannerbackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.landingpage .filter {
+  background: rgba(31, 31, 31, 0.5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.landingpage .filter img {
+  width: 134px;
+  height: 33px;
+  left: 30px;
+  top: 60px;
+  position: absolute;
+}
+.landingpage .filter h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 49px;
+  width: 307px;
+  height: 221px;
+  text-align: right;
+  color: #ffffff;
+  position: absolute;
+  left: 15.73%;
+  right: 2.4%;
+  top: 45.44%;
+  bottom: 27.34%;
+}
+
+.landingpage .login {
+  position: absolute;
+  width: 258px;
+  height: 50px;
+  left: 25%;
+  top: 73%;
+  border-radius: 50px;
+  background: #012aff;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  mix-blend-mode: normal;
+  color: #ffffff;
+}
+
+.landingpage .register {
+  position: absolute;
+  width: 258px;
+  height: 50px;
+  left: 12.5%;
+  right: 12.5%;
+  top: 80%;
+  background: #3d7af5;
+  border-radius: 50px;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  mix-blend-mode: normal;
+  color: #ffffff;
+}

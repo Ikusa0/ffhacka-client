@@ -1,0 +1,79 @@
+.onboarding .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.onboarding .item {
+  --min-height: 915px;
+  width: 100%;
+  position: absolute;
+}
+
+.onboarding h1 {
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 49px;
+  color: #1f1f1f;
+  word-wrap: break-word;
+  top: 9.36%;
+  bottom: 72.54%;
+  text-align: center;
+}
+
+.onboarding h2 {
+  position: absolute;
+  top: 33.8%;
+  bottom: 60.24%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #1f1f1f;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 100%;
+  height: 24px;
+}
+.onboarding .spreadsheet {
+  position: absolute;
+  width: 268px;
+  height: 268px;
+  left: 20.5%;
+  right: 12.5%;
+  top: 45%;
+}
+
+.onboarding .navdot {
+  position: absolute;
+  width: 46px;
+  height: 12px;
+  left: 48%;
+  top: 850px;
+}
+
+.onboarding .choseInsurance {
+  position: absolute;
+  width: 258px;
+  height: 50px;
+  left: 33%;
+  top: 78%;
+  border-radius: 50px;
+  background: #012aff;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  mix-blend-mode: normal;
+  color: #ffffff;
+}
+
