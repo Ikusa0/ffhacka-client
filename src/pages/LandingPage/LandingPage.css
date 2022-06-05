@@ -1,3 +1,7 @@
+* {
+  font-family: "Aeonik";
+}
+
 .landingpage .body {
   width: 100%;
   background-image: url("bannerbackground.png");

@@ -1,10 +1,11 @@
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import Home from './pages/LandingPage/Home';
+import Home from './pages/LandingPage/LandingPage';
 import OnBoarding from './pages/OnBoarding/OnBoarding';
 import OnBoarding2 from './pages/OnBoarding/OnBoarding2';
 import OnBoarding3 from './pages/OnBoarding/OnBoarding3';
+import Login from './pages/login/Login';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -45,6 +46,9 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/onBoarding3">
           <OnBoarding3 />
+        </Route>
+        <Route exact path="/login">
+          <Login />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>
