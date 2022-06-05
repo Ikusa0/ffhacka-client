@@ -1,0 +1,7 @@
+{
+  "name": "ffhacka-client",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
