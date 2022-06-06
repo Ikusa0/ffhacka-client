@@ -15,3 +15,7 @@
   font-weight: regular;
   src: url("../fonts/Aeonik-Regular.otf") format("opentype");
 }
+
+* {
+  font-family: "Aeonik" !important;
+}
