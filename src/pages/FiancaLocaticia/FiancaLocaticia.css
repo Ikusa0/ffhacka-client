@@ -69,6 +69,8 @@
   --background: #012aff;
   --border-radius: 50px;
   margin: 68px 0 0 38px;
+  font-size: 14px;
+line-height: 16px;
 }
 
 .contentBox div {
@@ -81,4 +83,6 @@
   line-height: 36px;
   text-align: center;
   color: #1F1F1F;
+  margin-top: 76px;
+  margin-bottom: 78px;
 }
