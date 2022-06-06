@@ -1,14 +1,15 @@
-.Login .link {
+.SingUp .link,
+.SingUp .login-thumbnail {
   --inner-border-width: 0;
 }
 
-.Login .login-thumbnail {
+.SingUp .login-thumbnail {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.Login .link::part(native) {
+.SingUp .link::part(native) {
   display: block;
   text-align: center;
   font-weight: 400;
@@ -18,7 +19,7 @@
   color: #012aff;
 }
 
-.Login .label-input {
+.SingUp .label-input {
   font-weight: 400 !important;
   font-size: 12px !important;
   line-height: 16px !important;
@@ -27,13 +28,13 @@
   opacity: 0.6 !important;
 }
 
-.Login ion-button {
+.SingUp ion-button {
   --background: rgba(1, 42, 255, 0.5);
   --border-radius: 50px;
   height: 50px;
 }
 
-.Login .title {
+.SingUp .title {
   width: 100%;
   font-style: normal;
   font-weight: 700;
@@ -41,6 +42,7 @@
   line-height: 49px;
   color: #1f1f1f;
 
+  z-index: 1;
   position: fixed;
   left: 12%;
   right: 64.27%;
@@ -48,7 +50,7 @@
   bottom: 84.61%;
 }
 
-.Login .sub-title {
+.SingUp .sub-title {
   width: 100%;
   display: block;
   font-style: normal;
@@ -60,6 +62,7 @@
   mix-blend-mode: normal;
   opacity: 0.8;
 
+  z-index: 1;
   position: fixed;
   left: 12%;
   right: 44.53%;
@@ -67,17 +70,36 @@
   bottom: 80.42%;
 }
 
-.Login .login-image {
-  max-width: 30em;
-  padding-left: 25%;
+.SingUp .login-image {
+  max-width: 20em;
+  padding-left: 40%;
 }
 
-.Login .submit-button {
-  margin-top: 50px;
+.SingUp .submit-button {
+  margin-top: 30px;
 }
 
-@media only screen and (min-width: 768px) and (min-height: 768px){
-  .Login .login-image {
-    padding-left: 10%;
+.SingUp .checkbox-container {
+  margin-top: 20px;
+}
+
+.SingUp .text-container .text {
+  display: inline-block;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #1f1f1f;
+}
+
+.SingUp .text-container .text span {
+  color: #012aff;
+}
+
+@media only screen and (min-width: 768px) and (min-height: 768px) {
+  .SingUp .login-image {
+    padding-left: 30%;
   }
 }

@@ -1,0 +1,45 @@
+.InsuranceCard img {
+  width: 83px;
+  height: 39px;
+}
+
+.InsuranceCard {
+  background-color: #75b3f0;
+  color: white;
+  width: 175px;
+  height: 235px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.InsuranceCard ion-card-header {
+  padding: 16px 16px 0 16px;
+}
+
+.InsuranceCard ion-button {
+  width: 134px;
+  height: 29px;
+  margin: 20px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  --box-shadow: none;
+
+  color: #ffffff;
+  --background: #012aff;
+  --border-radius: 50px;
+}
+
+.InsuranceCard .button-container {
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+}

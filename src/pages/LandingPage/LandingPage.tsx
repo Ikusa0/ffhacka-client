@@ -18,7 +18,7 @@ const Home: React.FC = () => {
             <h2>Um novo jeito de se sentir mais seguro</h2>
           </div>
           <IonButton className="login ion-text-capitalize"  href="/login">Acessar</IonButton>
-          <IonButton className="register ion-text-capitalize"  href="/register">Cadastre-se</IonButton>
+          <IonButton className="register ion-text-capitalize"  href="/sign_up">Cadastre-se</IonButton>
         </body>
         
       </IonContent>
