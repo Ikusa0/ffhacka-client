@@ -6,6 +6,8 @@ import OnBoarding from './pages/OnBoarding/OnBoarding';
 import OnBoarding2 from './pages/OnBoarding/OnBoarding2';
 import OnBoarding3 from './pages/OnBoarding/OnBoarding3';
 import Login from './pages/login/Login';
+import FiancaLocaticia1 from './pages/FiancaLocaticia/FiancaLocaticiaPermission';
+import FiancaLocaticia2 from './pages/FiancaLocaticia/FiancaLocaticia2';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -49,6 +51,12 @@ const App: React.FC = () => (
         </Route>
         <Route exact path="/login">
           <Login />
+        </Route>
+        <Route exact path="/fiancaLocaticia1">
+          <FiancaLocaticia1 />
+        </Route>
+        <Route exact path="/fiancaLocaticia2">
+          <FiancaLocaticia2 />
         </Route>
       </IonRouterOutlet>
     </IonReactRouter>

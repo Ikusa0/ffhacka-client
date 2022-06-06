@@ -62,10 +62,10 @@
   position: absolute;
   width: 258px;
   height: 50px;
-  left: 33%;
+  left: 23%;
   top: 78%;
-  border-radius: 50px;
-  background: #012aff;
+  --border-radius: 50px;
+  --background: #012aff;
   font-size: 14px;
   line-height: 16px;
   display: flex;

@@ -1,5 +1,5 @@
 import React from "react";
-import { IonContent, IonPage, IonTabButton } from "@ionic/react";
+import { IonContent, IonPage, IonButton } from "@ionic/react";
 import "./OnBoarding.css";
 
 const OnBoarding3: React.FC = () => {
@@ -10,7 +10,7 @@ const OnBoarding3: React.FC = () => {
           <h2>Modernizamos para lhe oferecer um melhor serviço</h2>
           <img className="spreadsheet" src={require("./Spreadsheet3.png")} />
           <img className="navdot" src={require("./Nav3.png")} />
-          <IonTabButton className="choseInsurance" tab="choseInsurance" href="/login">Escolher meu primero seguro</IonTabButton>
+          <IonButton className="choseInsurance ion-text-capitalize"  href="/login">Escolher meu primero seguro</IonButton>
         </IonContent>
     </IonPage>
   );

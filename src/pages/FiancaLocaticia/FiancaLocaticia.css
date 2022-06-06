@@ -1,0 +1,84 @@
+.FiancaLocaticia .content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.FiancaLocaticia .contentBox {
+  width: 81%;
+  height: 63%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 38px;
+  position: relative;
+}
+
+.FiancaLocaticia h1 {
+  width: 229px;
+  height: 78px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 36px;
+  color: #1f1f1f;
+}
+
+.FiancaLocaticia h2 {
+  width: 186px;
+  height: 51px;
+  margin-top: 17px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.25px;
+  color: #1f1f1f;
+  margin-left: 18px;
+}
+
+.FiancaLocaticia h3 {
+  width: 244px;
+  height: 51px;
+  margin-top: 17px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.25px;
+  color: #1f1f1f;
+  margin-left: 18px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  margin-left: 38px;
+}
+
+.FiancaLocaticia .home {
+  width: 119px;
+  height: 119px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.FiancaLocaticia .photo {
+  width: 296px;
+  height: 296px;
+  margin-left: 13px;
+}
+
+.FiancaLocaticia .permission {
+  width: 330px;
+  --min-height: 50px;
+  --background: #012aff;
+  --border-radius: 50px;
+  margin: 68px 0 0 38px;
+}
+
+.contentBox div {
+  margin-top: 134px;
+}
+
+.contentBox h5 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 36px;
+  text-align: center;
+  color: #1F1F1F;
+}

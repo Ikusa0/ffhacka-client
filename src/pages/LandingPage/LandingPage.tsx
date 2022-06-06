@@ -2,11 +2,11 @@ import {
   IonContent,
   IonHeader,
   IonPage,
-  IonTabButton,
+  IonButton,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import "./Home.css";
+import "./LandingPage.css";
 
 const Home: React.FC = () => {
   return (
@@ -17,8 +17,8 @@ const Home: React.FC = () => {
             <img src={require("./logo.png")}/>
             <h2>Um novo jeito de se sentir mais seguro</h2>
           </div>
-          <IonTabButton className="login" tab="login" href="/login">Acessar</IonTabButton>
-          <IonTabButton className="register" tab="register" href="/register">Cadastre-se</IonTabButton>
+          <IonButton className="login ion-text-capitalize"  href="/login">Acessar</IonButton>
+          <IonButton className="register ion-text-capitalize"  href="/register">Cadastre-se</IonButton>
         </body>
         
       </IonContent>

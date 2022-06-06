@@ -41,10 +41,10 @@
   position: absolute;
   width: 258px;
   height: 50px;
-  left: 25%;
+  left: 30.5%;
   top: 73%;
-  border-radius: 50px;
-  background: #012aff;
+  --border-radius: 50px;
+  --background: #012aff;
   font-size: 14px;
   line-height: 16px;
   display: flex;
@@ -60,11 +60,10 @@
   position: absolute;
   width: 258px;
   height: 50px;
-  left: 12.5%;
-  right: 12.5%;
+  left: 30.5%;
   top: 80%;
-  background: #3d7af5;
-  border-radius: 50px;
+  --background: #3d7af5;
+  --border-radius: 50px;
   font-size: 14px;
   line-height: 16px;
   display: flex;
