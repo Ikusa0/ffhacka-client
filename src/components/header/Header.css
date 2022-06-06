@@ -1,0 +1,8 @@
+.header-icon {
+  font-size: 2em;
+  padding: 10px 0 0 10px;
+}
+
+.header::after {
+  background-image: none !important;
+}
